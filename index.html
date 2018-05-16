@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>TCP-Visualizer</title>
+       <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+       <script src="res/js/jquery.min.js"></script>
+       <script>if (window.module) module = window.module;</script>
+       <link rel="stylesheet" href="res/css/style.css">
+  </head>
+  <body>
+    <div class = "output" id = "output">Willkommen!</div>
+
+    <div class = "port-label">Port: </div>
+    <input type = "text" value ="5000" id="port"></input>
+    <button id = "startstop">
+      Stop Server
+    </button>
+    <script src="res/js/tcp.js"></script>
+  </body>
+</html>

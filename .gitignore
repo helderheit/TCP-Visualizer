@@ -83,3 +83,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+#Folders and Files
+TCPVisualizer-win32-x64/*
+Update.exe
+package.json.lock
+installer/*

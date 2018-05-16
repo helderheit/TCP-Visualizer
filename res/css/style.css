@@ -1,0 +1,101 @@
+@font-face { font-family: IBM; src: url('../font/IBMPlexSans-SemiBold.otf'); }
+
+body{
+  background-color: #FFD76E;
+}
+.output{
+  font-family: IBM;
+  color: #0A181F;
+  position: absolute;
+  text-align: center;
+  font-size: 5em;
+  left:50%;
+  top:50%;
+  width: 70%;
+  margin-left: -35%;
+  margin-top: -0.5em;
+  height: 1em;
+}
+
+.port-label{
+  margin-top: 0.15em;
+  color: #3E545C;
+  position: fixed;
+  top:85%;
+  left: 35%;
+  margin-left: -3em;
+  font-size: 1.3em;
+  font-family: IBM;
+}
+
+input{
+  width: 20%;
+  border-radius: 0.1em;
+  font-family: 'Rubik', sans-serif;
+  font-size: inherit;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+  border: 1px solid #3E545C;
+  padding: 0.2em 0.5em;
+  background-color: #FFD76E;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  text-align: left;
+  color: #3E545C;
+}
+
+input:hover{
+  color: #0A181F;
+  border: 1px solid #0A181F;
+}
+
+input:active{
+  color: #0A181F;
+  border: 1px solid #0A181F;
+}
+#port{
+  position: fixed;
+  top:85%;
+  left: 35%;
+  font-size: 1em;
+  font-family: IBM;
+}
+#startstop{
+  position: fixed;
+  top:85%;
+  left: 60%;
+  font-size: 1em;
+  font-family: IBM;
+}
+button{
+  border-radius: 0.1em;
+  font-size: inherit;
+  box-sizing: border-box;
+  font-family: 'Rubik';
+  text-align: center;
+
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+
+  padding: 0.2em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+
+  display: inline-block;
+
+  color:#3E545C;
+
+  background-color: #FFD76E;
+
+  border: 1px solid  #3E545C;
+}
+button:hover{
+  color: #0A181F;
+  border: 1px solid #0A181F;
+}
+button:active{
+  color: #0A181F;
+  border: 1px solid #0A181F;
+}
+button:focus {
+outline:0
+}
